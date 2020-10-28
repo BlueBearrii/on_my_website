@@ -1,11 +1,15 @@
-import React, { Component } from 'react'
-import rocketModel from './assets/rocket.png'
+import React, { Component } from "react";
+import styled from "styled-components";
+import rocketModel from "./assets/rocket.png";
+
 export default class Rocket extends Component {
-    render() {
-        return (
-            <div>
-                <img src={rocketModel}/>
-            </div>
-        )
-    }
+  constructor() {
+    super();
+    this.state = {};
+  }
+
+  render() {
+    return <img src={rocketModel} width="500" height="500" />;
+  }
 }
+const Position = styled.div``;
