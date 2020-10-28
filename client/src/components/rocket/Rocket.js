@@ -13,8 +13,14 @@ export default class Rocket extends Component {
     const { fireState } = this.props;
     return (
       <Position>
-        <img src={rocketModel} width="500" height="500" />
-        <Power src={fire} width="150" height="150" fireState={fireState} />
+        <img src={rocketModel} width="500" height="500" alt="rocket" />
+        <Power
+          src={fire}
+          width="150"
+          height="150"
+          fireState={fireState}
+          alt="fire"
+        />
       </Position>
     );
   }
