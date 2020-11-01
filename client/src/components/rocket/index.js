@@ -1,1 +1,2 @@
-export { default as Rocket } from "./Rocket";
+import Rocket from "./Rocket";
+export default Rocket;
